@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title> Garage Virtuel </title>
+    <script src="js/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="app">
+
+        {{message}}
+
+        <input v-model="message">
+
+    </div>
+
+
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js !'
+            }
+        })
+    </script>
+
+</body>
+
+</html>
